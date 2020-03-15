@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "andres-books"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1eeuj4utzmn7e"
+s3_prefix = "andres-books"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+
